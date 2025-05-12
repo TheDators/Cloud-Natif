@@ -22,7 +22,7 @@ public class RentalService {
         car = new Car("Peugeot", 500);
         cars.add(car);
 	car = new Car("Renault", 200);
-	carrs.add(car);
+	cars.add(car);
     }
 
     @GetMapping("/bonjour")
